@@ -1,0 +1,98 @@
+.topbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 46px;
+  background-color: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+
+.homeButton {
+  height: 46px;
+  width: 53px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeButton:hover,
+.homeButton:active {
+  height: 44px;
+  border-bottom: 2px solid #1da1f2;
+  transition: all 0.15s ease-in-out;
+}
+
+.homeBtn {
+  width: 23px;
+  height: 23px;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputSearch {
+  background-color: #f5f8fa;
+  border-radius: 21px;
+  border: 1px solid lightgray;
+  color: #14171a;
+  font-size: 12px;
+  line-height: 16px;
+  height: 32px;
+  text-align: center;
+  outline: none;
+}
+
+.inputSearch:active,
+.inputSearch:focus {
+  background-color: #fff;
+  border: 2px solid #d90104;
+  width: 200px;
+  transition: all 0.3s ease-in-out;
+}
+
+.submitButton {
+  background-color: transparent;
+  border: none;
+}
+
+.myPart {
+  margin-right: 16px;
+  display: flex;
+}
+
+.mypageBtn,
+.logoutBtn,
+.writeBtn {
+  border: 1px solid lightgray;
+  border-radius: 21px;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 5px 8px;
+  margin-left: 10px;
+  outline: none;
+}
+
+.mypageBtn:hover,
+.logoutBtn:hover,
+.writeBtn:hover {
+  border: 2px solid #d90104;
+  width: 100px;
+  transition: all 0.3s ease-in-out;
+}
+
+.mypageLink,
+.writeLink {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}

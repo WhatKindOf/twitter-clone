@@ -1,0 +1,165 @@
+@media (max-width: 1030px) {
+  .contentWithPicDiv {
+    width: 400px !important;
+    height: 900px !important;
+    flex-direction: column;
+  }
+  .picDiv {
+    width: 400px !important;
+    height: 400px !important;
+  }
+}
+
+.lowerDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 46px 0 0;
+}
+
+.contentWithPicDiv,
+.contentWithoutPicDiv {
+  width: 900px;
+  height: 500px;
+  box-shadow: 3px 3px 3px 3px #999;
+  margin: 30px 0;
+  display: flex;
+}
+
+.picDiv {
+  width: 500px;
+  height: 500px;
+}
+
+.pic {
+  width: 100%;
+  height: 100%;
+}
+
+.upper {
+  height: 60px;
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profileDiv {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.profileImg,
+.replyProfileImg {
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  margin-right: 15px;
+}
+
+.profileName {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.uploadDate {
+  font-size: 12px;
+  color: lightslategray;
+  margin-right: 15px;
+}
+
+.mid {
+  height: 390px;
+  width: 400px;
+  border-top: 1px solid black;
+}
+
+.summary {
+  width: 400px;
+  height: 90px;
+  border-bottom: 1px solid lightgray;
+  font-size: 14px;
+  color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.showReply {
+  width: 400px;
+  height: 300px;
+  overflow-y: auto;
+  background-color: #efefef;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reply {
+  display: flex;
+  width: 360px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.replyName {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.replyText {
+  font-size: 14px;
+  color: gray;
+  margin-bottom: 4px;
+}
+
+.replyDate,
+.deleteText {
+  font-size: 12px;
+  color: lightslategray;
+}
+
+.deleteText {
+  color: red;
+  cursor: pointer;
+}
+
+.lower,
+.inputReply {
+  height: 50px;
+  width: 400px;
+}
+
+.inputReply {
+  box-sizing: border-box;
+  outline: none;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: none;
+}
+
+.contentWithoutPicDiv {
+  flex-direction: column;
+  width: 400px;
+  height: 500px;
+}
+
+.replyContent {
+  width: 100%;
+}
+
+.dateDelete {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.submitBtn {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  padding: 0px;
+}

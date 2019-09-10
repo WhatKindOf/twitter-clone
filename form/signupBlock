@@ -1,0 +1,13 @@
+<div class="signupHeader">
+    <img class="logo" src="images/twitter.png" alt="twitter_logo">
+        <div class="signupTitle">
+            지금 세계 곳곳에서 무슨 일이 일어나고 있는지 확인하세요.
+        </div>
+</div>
+<div class="signupForm">
+    <div class="signupSubtitle">
+        지금 트위터에 가입하세요.
+    </div>
+    <a class="buttonSignup" onclick="fetchBlock('signup')">가입하기</a>
+    <a class="buttonLogin" onclick="fetchBlock('login')">로그인</a>
+</div>

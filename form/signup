@@ -1,0 +1,14 @@
+<div class="loginDiv">
+    <img class="logo" src="images/twitter.png" alt="twitter_logo">
+    <p class="loginTitle">회원 가입</p>
+    <form class="loginForm" action="signupAction.php" method="post">
+        <input class="loginForm-input" name="userName" type="text" placeholder="이름">
+        <input class="loginForm-input" name="userID" type="text" placeholder="아이디">
+        <input class="loginForm-input" name="userPassword" type="password" placeholder="비밀번호">
+        <input class="loginForm-submit" type="submit" value="회원가입">
+    </form>
+    <div>
+        <span>이미 계정이 있으신가요? </span>
+        <a class="signupText" onclick="fetchBlock('login')">로그인하기</a>
+    </div>
+</div>

@@ -1,0 +1,22 @@
+<div class="homeButton">
+    <a href="home.php">
+        <img class="homeBtn" src="images/twitter.png" alt="home_button">
+    </a>
+</div>
+<!--<div class="search">
+    <form action="searchAction.php" method="post">
+        <input class="inputSearch" type="text" placeholder="트위터 검색하기">
+        <input class="submitButton" type="submit" value="">
+    </form>
+</div>-->
+<div class="myPart">
+    <button class="writeBtn">
+        <a class="writeLink" href="write.php">글 작성</a>
+    </button>
+    <button class="mypageBtn">
+        <a class="mypageLink" href="mypage.php">마이페이지</a>
+    </button>
+    <form action="logoutAction.php" method="post" onsubmit="if(!confirm('정말 로그아웃 하시겠습니까?')){return false;}">
+        <input class="logoutBtn" type="submit" value="로그아웃">
+    </form>
+</div>
